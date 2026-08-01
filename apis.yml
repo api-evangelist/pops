@@ -1,22 +1,68 @@
 aid: pops
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pops.png
 name: Pops
-description: Pops is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pops is a consumer mobile application, built by Undefined Software, Inc. and
+  backed by Y Combinator (Spring 2026), that lets users create, remix, and share
+  AI-powered mini games with friends. Every play instantly becomes a funny
+  gameplay/reaction video you can send to friends. Pops is available on iOS and
+  Android and is organized around game categories such as arcade, 3D, racing,
+  sports, puzzles, party, and reaction games. It is an end-user social and gaming
+  product with no public API, SDK, or developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/pops/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Spring 2026
+x-legal-entity: Undefined Software, Inc.
+x-founder: Alon Zuman
+x-location: New York City, NY
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-app-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer
+- Gaming
+- Social
+- Artificial Intelligence
+- Mobile
+- Entertainment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pops-domain-security.yml
+- type: Website
+  url: https://pops.fyi
+- type: TermsOfService
+  url: https://pops.fyi/terms
+- type: PrivacyPolicy
+  url: https://pops.fyi/privacy
+- type: Support
+  url: https://discord.gg/Y5GsdRPFKT
+- type: HelpCenter
+  url: https://pops.fyi/faq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
